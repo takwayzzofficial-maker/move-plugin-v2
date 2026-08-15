@@ -1,7 +1,14 @@
 {
-  "name": "Move To Me",
-  "description": "Стрелочка рядом с участником voice-канала — перемещает его к тебе",
-  "authors": [{ "name": "Takwayzz" }],
-  "main": "index.js",
-  "vendetta_lib": ">=100"
+    "name": "Move To Me",
+    "description": "Стрелочка рядом с участником voice-канала — перемещает его к тебе",
+    "authors": [
+        {
+            "name": "Takwayzz",
+            "id": "0"
+        }
+    ],
+    "main": "src/index.ts",
+    "vendetta": {
+        "icon": "ic_add_circle"
+    }
 }
