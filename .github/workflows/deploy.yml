@@ -21,7 +21,7 @@ jobs:
             - run: npm install --global pnpm
 
             - name: Install deps
-              run: pnpm config set enable-pre-post-scripts true && pnpm m i
+              run: pnpm m i --config.enableScripts=true --config.enablePrePostScripts=true
             - name: Build plugin(s)
               run: node ./build.mjs
 
